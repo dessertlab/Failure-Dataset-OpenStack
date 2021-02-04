@@ -17,3 +17,34 @@ Please, **cite the paper** if you use the dataset for your research:
 
 ```
 ```
+
+
+## Failure Classes
+In our fault-injection experiments, we found different failure modes. We associated to each failure-mode a numeric value (**Failure Label**).
+
+### DEPL
+In the fault-injection campaing performed with the DEPL workload, the experiments experienced 6 different types of failures:
+
+* **Failure Label 1**: *Instance Failure*
+* **Failure Label 2**: *Volume Failure* 
+* **Failure Label 3**: *SSH Failure* 
+* **Failure Label 4**: *Cleanup Failure*
+* **Failure Label 5**: *Network Failure* 
+* **Failure Label 6**: *No Failure* 
+
+### NET
+In the fault-injection campaing performed with the NET workload, the experiments experienced 4 different types of failures:
+
+* **Failure Label 1**: *Instance Failure*
+* **Failure Label 2**: *Network Failure* 
+* **Failure Label 3**: *SSH Failure* 
+* **Failure Label 4**: *No Failure* 
+
+
+### STO
+In the fault-injection campaing performed with the DEPL workload, the experiments experienced 4 different types of failures:
+
+* **Failure Label 1**: *Volume Failure* 
+* **Failure Label 2**: *Instance Failure*
+* **Failure Label 3**: *Cleanup Failure* 
+* **Failure Label 4**: *No Failure* 
