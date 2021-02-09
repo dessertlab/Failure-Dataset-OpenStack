@@ -8,15 +8,7 @@ In every folder, you can find:
 * **LCS_with_VMM.tsv**: a matrix with *N* rows and *2d* columns containing the anomalies identified by the *LCS with VMM* approach during the fault-injection experiments. *N* is the number of fault-injection experiments, *d* represents the number of different event types (unique events). The first *d* columns (*1* to *d*) represent the number of spurious anomalies, the last d columns (*d+1* to *2d*) represents the number of missing anomalies.
 * **Failure_Labels.txt**: a file containing the label class associated with every fault-injection experiment. The class label is expressed by a number. 
 
-We invite the reader to find further information on the data representation, on the workloads, and the failure classes by reading the paper:  
-
-
-
-
-Please, **cite the paper** if you use the dataset for your research:
-
-```
-```
+We invite the reader to find further information on the data representation, on the workloads, and the failure classes by reading the paper (currently under review).  
 
 
 ## Failure Classes
