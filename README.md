@@ -9,8 +9,19 @@ In every folder, you can find:
 * **Failure_Labels.txt**: a file containing the label class associated with every fault-injection experiment. The class label is expressed by a number. 
 
 The number *N* of experiments and the number *d* of events depend on the workload used during the fault-injection experiments. Therefore, the matrix dimension in the *tsv* files change in every folder. 
-We invite the reader to find further information on the data representation, the workloads, the anomaly types, and the failure classes by reading the paper [Enhancing the Analysis of Software Failuresin Cloud Computing Systems with Deep Learning](https://authors.elsevier.com/a/1dPiIbKHp4-2u) accepted at the Journal of Systems and Software.  
+We invite the reader to find further information on the data representation, the workloads, the anomaly types, and the failure classes by reading the paper ***Enhancing the Analysis of Software Failuresin Cloud Computing Systems with Deep Learning*** accepted at the Journal of Systems and Software:
 
+```
+@article{cotroneo2021enhancing,
+  title={Enhancing the analysis of software failures in cloud computing systems with deep learning},
+  author={Cotroneo, Domenico and De Simone, Luigi and Liguori, Pietro and Natella, Roberto},
+  journal={Journal of Systems and Software},
+  volume={181},
+  pages={111043},
+  year={2021},
+  publisher={Elsevier}
+}
+```
 
 ## Failure Classes
 In our fault-injection experiments, we found different failure modes. We associated to each failure-mode a numeric value (**Failure Label**).
