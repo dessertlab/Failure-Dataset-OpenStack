@@ -23,6 +23,8 @@ We invite the reader to find further information on the data representation, the
 }
 ```
 
+The slide presentation of the paper is available on [slideshare](https://www.slideshare.net/PietroLiguori4/enhancing-the-analysis-of-software-failures-in-cloud-computing-systems-with-deep-learning), while you can find the video presentation of the paper on [Youtube](https://www.youtube.com/watch?v=sQyol2aH-u0&list=PLhBMpvlFe-cHGnN9-9R5h2FWqjbBdyjA0&index=3&t=2s).
+
 ## Failure Classes
 In our fault-injection experiments, we found different failure modes. We associated to each failure-mode a numeric value (**Failure Label**).
 
